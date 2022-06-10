@@ -1,0 +1,27 @@
+button {
+    background-color: rgb(25, 118, 180);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+    color: white;
+    border: transparent;
+    height: 150px;
+    width: 150px;
+    margin-left: 46%;
+    margin-top: 16%;
+    cursor: pointer;
+    border-radius: 100px;
+    line-height: 25px;
+}
+button:hover {
+    background-color: rgb(148, 35, 27);
+    transition: 0.8s; 
+}
+button:active {
+    transform: translateY(-40px);
+}
+
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
