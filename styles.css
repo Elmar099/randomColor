@@ -1,41 +1,41 @@
-button {
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.btn {
     background-color: rgb(25, 118, 180);
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: large;
+    font-size: 1.2rem;
+    padding: 10px;
     color: white;
-    border: transparent;
+    border: none;
     height: 150px;
     width: 150px;
-    margin-left: 46%;
     margin-top: 10%;
     cursor: pointer;
-    border-radius: 100px;
+    border-radius: 50%;
     line-height: 25px;
+    transition: background-color 0.3s; 
 }
-button:hover {
+.btn:hover {
     background-color: rgb(148, 35, 27);
-    transition: 0.8s; 
 }
-button:active {
+.btn:active {
     transform: translateY(-40px);
 }
-
-h1 {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+body {
     text-align: center;
 }
+h1 {
+    margin-top: 50px;
+}
 #name{  
-    display: inline;
-    margin-left: 45%;
-    float: left;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: x-large;    
-
+    display: inline-block;
+    font-size: 30px;    
 }
 #hex{  
-    text-align:left;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: x-large;    
-
+    display: inline-block;
+    font-size: 30px;    
 }
 
